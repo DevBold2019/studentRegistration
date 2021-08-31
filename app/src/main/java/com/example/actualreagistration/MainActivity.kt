@@ -95,9 +95,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             dialogLayout.visibility= View.VISIBLE
-            var intent = Intent(baseContext,logInActivity::class.java)
-            startActivity(intent)
-            //registerNewStudent(name,phonenumber,dob,nationality,password,email)
+            registerNewStudent(name,phonenumber,dob,nationality,password,email)
 
         }
     }
